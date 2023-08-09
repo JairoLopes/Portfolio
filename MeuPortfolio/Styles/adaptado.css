@@ -1,0 +1,93 @@
+/*--------------------------------------------- PEQUENAS TELAS -------------------------------------------------------------------------*/
+@media screen and (max-width:339px) {
+    .header-main {
+        display: none;
+    }
+
+    .Titulo-main_h1 {
+        width: 400px;
+    }
+
+    .menu-icon_img {
+        display: block;
+    }
+
+    .layout-sub-container {
+        width: 350px;
+        padding: 0.5rem 1 0.2rem 1rem;
+    }
+
+    .info-redes-sociais_div {
+        flex-direction: column;
+    }
+
+}
+
+
+
+/* ------------------ Ajustado para dispositivos móveis -----------------------------------------------*/
+@media screen and (min-width:340px) and (max-width:700px) {
+
+
+    /*some com  o menu header*/
+    .header-main {
+
+        display: none;
+    }
+
+
+    /*Deixa a div que contém os cards no main maior para eles preencherem melhor dentro do espaço*/
+    .main-content {
+        width: 100%;
+        padding: 0.4rem;
+        gap: 1rem;
+    }
+
+
+    /*habilita o icone do menu no layout*/
+    .menu-icon_img {
+        display: block;
+    }
+
+    /*faz a div que é pai dos icones organizarem eles em colunas*/
+    .info-redes-sociais_div {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:760px) {
+
+    /*Deixa a div que contém os cards no main maior para eles preencherem melhor dentro do espaço*/
+    .main-content {
+        width: 100%;
+        padding: 0.4rem;
+        gap: 1rem;
+    }
+
+
+    /*faz a div que é pai dos icones organizarem eles em colunas*/
+    .info-redes-sociais_div {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+/* ------------------------ Ajustado para tablet e laptop --------------------------------------------------*/
+@media screen and (min-width:800px) and (max-width:1243px) {
+    .info-redes-sociais_div {
+        flex-direction: column;
+    }
+}
+
+
+/*faz a div que é pai dos icones organizarem eles em LINHA*/
+@media (min-width:1244px) {
+    .info-redes-sociais_div {
+        flex-direction: row;
+    }
+}
