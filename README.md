@@ -1,2 +1,2 @@
 # Portfolio
-Meu Portfolio de projetos pessoais
+Meu Portfolio de projetos pessoais e profissionais
